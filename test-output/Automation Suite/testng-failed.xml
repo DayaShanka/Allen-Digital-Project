@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test Suit(failed)">
+    <classes>
+      <class name="com.ninjaproject.qa.test.AllenDigitalLogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyWithValidCredentials"/>
+        </methods>
+      </class> <!-- com.ninjaproject.qa.test.AllenDigitalLogin -->
+      <class name="com.ninjaproject.qa.test.Login">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLogout"/>
+        </methods>
+      </class> <!-- com.ninjaproject.qa.test.Login -->
+    </classes>
+  </test> <!-- Test Suit(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->
