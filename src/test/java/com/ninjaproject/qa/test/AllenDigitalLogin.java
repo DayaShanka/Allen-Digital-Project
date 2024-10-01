@@ -26,6 +26,7 @@ public class AllenDigitalLogin extends Base {
 	@AfterMethod
 	public void tearDown() {
 		driver.close();
+		driver.quit();
 
 	}
 
